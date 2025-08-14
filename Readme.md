@@ -102,10 +102,13 @@ After starting both backend and frontend, open:
 ├── README.md
 └── .gitignore
 ```
-##Sample output
-<img width="1908" height="907" alt="image" src="https://github.com/user-attachments/assets/134e9ded-4b43-419e-b0a0-c1dca130e79b" />
+## Sample output
 <img width="1665" height="654" alt="image" src="https://github.com/user-attachments/assets/9151c03f-84d5-4038-a2df-a51322be6f55" />
+
+Sentiment analysis chart
 <img width="1660" height="677" alt="image" src="https://github.com/user-attachments/assets/43b4a71d-1a47-4b90-9611-aa9312f57350" />
+
+Daily trends graph
 <img width="1613" height="597" alt="image" src="https://github.com/user-attachments/assets/d9869f49-98ea-4c09-a902-7aa6345576a0" />
 
 
