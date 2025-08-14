@@ -12,3 +12,17 @@ A complete **ETL pipeline** that extracts, transforms, and loads YouTube channel
 - [Sample Outputs](#sample-outputs)
 - [Future Improvements](#future-improvements)
 - [License](#license)
+
+## Features
+- 🔹 **Extracts YouTube data** (videos, comments, channel stats) via YouTube Data API
+- 🔹 **Transforms** raw JSON data into clean, structured tables
+- 🔹 **Loads** data into SQLite database
+- 🔹 **Interactive Dashboard** with:
+  - Overall statistics
+  - Daily upload trends
+  - Top 10 videos by views
+  - Video distribution by category
+  - Comment sentiment analysis
+
+## Architecture
+<img width="843" height="684" alt="image" src="https://github.com/user-attachments/assets/ce2f081b-c186-4edc-a703-78f350705acc" />
