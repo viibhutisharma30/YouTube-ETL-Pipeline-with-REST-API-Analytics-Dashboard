@@ -82,8 +82,7 @@ After starting both backend and frontend, open:
 <img width="1908" height="907" alt="image" src="https://github.com/user-attachments/assets/134e9ded-4b43-419e-b0a0-c1dca130e79b" />
 
 ## Project Structure
-
-.
+```bash
 ├── api/
 │ └── main.py # FastAPI backend providing endpoints to query processed data
 ├── dashboard/
@@ -102,4 +101,4 @@ After starting both backend and frontend, open:
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+```
