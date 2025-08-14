@@ -99,7 +99,7 @@ After starting both backend and frontend, open:
 │ └── youtube.db # SQLite database storing videos, channels, comments
 ├── requirements.txt
 ├── README.md
-└── .gitignore
+└── YEs.gitignore 
 ```
 ## Sample output
 
