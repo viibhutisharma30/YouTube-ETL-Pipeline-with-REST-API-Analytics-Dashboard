@@ -1,20 +1,14 @@
-# Core Libraries
-pandas
-sqlalchemy
-matplotlib
+# 📊 YouTube Data ETL Pipeline + Analytics Dashboard
 
-# YouTube Data API Client
-google-api-python-client
+A complete **ETL pipeline** that extracts, transforms, and loads YouTube channel data into a database, and visualizes it using a Streamlit dashboard. Built with **FastAPI**, **SQLAlchemy**, and **Altair**.
 
-# FastAPI & Server (for REST API)
-fastapi
-uvicorn
-
-# Streamlit (for Dashboard)
-streamlit
-
-# Optional: If using PostgreSQL instead of SQLite
-psycopg2-binary
-
-# Optional: If using sentiment analysis on comments
-textblob
+## Table of Contents
+- [Features](#features)
+- [Architecture](#architecture)
+- [Tech Stack](#tech-stack)
+- [Setup Instructions](#setup-instructions)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Sample Outputs](#sample-outputs)
+- [Future Improvements](#future-improvements)
+- [License](#license)
