@@ -25,7 +25,7 @@ A complete **ETL pipeline** that extracts, transforms, and loads YouTube channel
   - Comment sentiment analysis
 
 ## Architecture
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/7f80e1a4-32d3-4a2f-9708-4c2d6fcb2d08" />
+<img width="1024" height="646" alt="Architecture" src="https://github.com/user-attachments/assets/5cd26bf4-ad62-406f-9183-95689ac44543" />
 
 ## Tech Stack
 - **Backend:** FastAPI, SQLAlchemy
@@ -74,11 +74,32 @@ streamlit run dashboard/app.py
 ## Usage
 
 After starting both backend and frontend, open:
+
 📍 Dashboard: http://localhost:8501  
 📍 API Docs: http://localhost:8000/docs  
 
 ### Dashboard Preview
 <img width="1908" height="907" alt="image" src="https://github.com/user-attachments/assets/134e9ded-4b43-419e-b0a0-c1dca130e79b" />
 
+## Project Structure
 
+.
+├── api/
+│ └── main.py # FastAPI backend providing endpoints to query processed data
+├── dashboard/
+│ └── app.py # Streamlit dashboard for interactive visualizations and insights
+├── queries/
+│ └── analytics.sql # Predefined SQL queries used by API and dashboard
+├── src/
+│ ├── extract.py # Extract: YouTube API data extraction
+│ ├── transform.py # Transform: Data cleaning, standardization, enrichment
+│ ├── load.py # Load: Load transformed data into SQLite (youtube.db)
+│ ├── run_etl.py # ETL orchestration script calling extract, transform, and load
+│ ├── check_db.py # Utility to check database connection and tables
+│ └── config.py # Configuration file storing API keys and settings
+├── data/
+│ └── youtube.db # SQLite database storing videos, channels, comments
+├── requirements.txt
+├── README.md
+└── .gitignore
 
