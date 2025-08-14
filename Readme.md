@@ -10,8 +10,7 @@ A complete **ETL pipeline** that extracts, transforms, and loads YouTube channel
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Sample Outputs](#sample-outputs)
-- [Future Improvements](#future-improvements)
-- [License](#license)
+- [Summary](#Summary)
 
 ## Features
 - **Extracts YouTube data** (videos, comments, channel stats) via YouTube Data API
@@ -110,5 +109,17 @@ After starting both backend and frontend, open:
 
 📍Daily trends graph
 <img width="1613" height="597" alt="image" src="https://github.com/user-attachments/assets/d9869f49-98ea-4c09-a902-7aa6345576a0" />
+
+## Summary
+
+This project provides a complete end-to-end solution for extracting, transforming, and visualizing YouTube data.
+It includes:
+- Backend API for data processing and analytics.
+
+- Interactive Streamlit Dashboard for exploring insights.
+
+- Real-time statistics, sentiment analysis, and trend visualization to understand video performance and audience engagement.
+
+With this setup, you can easily monitor channel metrics, analyze content performance, and make data-driven decisions — all in one place.
 
 
